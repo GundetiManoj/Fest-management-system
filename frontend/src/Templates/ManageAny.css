@@ -1,0 +1,68 @@
+.ManageAny {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .ManageAny h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .ManageAny-Options table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .ManageAny-Options th,
+  .ManageAny-Options td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .ManageAny-Options th {
+    background-color: #f2f2f2;
+  }
+  
+  .ManageAny-Options button {
+    padding: 8px 12px;
+    background-color: #66bb6a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .ManageAny-Options button:hover {
+    background-color: #388e3c;
+  }
+  
+  .ManageAny-Options .type {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .ManageAny-Options .type select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .ManageAny-Options .type button {
+    padding: 6px 10px;
+    background-color: #66bb6a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .ManageAny-Options .type button:hover {
+    background-color: #388e3c;
+  }
+  

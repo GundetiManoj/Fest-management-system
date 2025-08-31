@@ -1,0 +1,52 @@
+/* AssignEvents.css */
+
+.AssignEvents {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .AssignEvents h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .AssignEvents-Options {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .AssignEvent {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+  }
+  
+  .AssignEvent h3 {
+    margin-bottom: 10px;
+  }
+  
+  .AssignEvent button {
+    width: 100%;
+    padding: 10px;
+    background-color: #66bb6a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .AssignEvent button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .AssignEvent button:hover {
+    background-color: #388e3c;
+  }
+  

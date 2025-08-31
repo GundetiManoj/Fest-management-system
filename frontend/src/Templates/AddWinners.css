@@ -1,0 +1,67 @@
+/* AddWinners.css */
+
+.AddWinners {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .AddWinners h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .AddWinners-List {
+    margin-top: 20px;
+  }
+  
+  .AddWinners-List select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  .AddWinners-List button {
+    width: 100%;
+    padding: 10px;
+    background-color: #66bb6a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .AddWinners-List button:hover {
+    background-color: #388e3c;
+  }
+  
+  /* Table styles */
+  .AddWinners-List table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .AddWinners-List th, .AddWinners-List td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .AddWinners-List th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .AddWinners-List tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  

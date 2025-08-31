@@ -1,0 +1,41 @@
+/* EditAny.css */
+
+.EditAny {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .EditAny h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .EditAny-Options {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .EditAny-Options a {
+    text-decoration: none;
+  }
+  
+  .EditAny-Options a button {
+    padding: 10px 20px;
+    background-color: #66bb6a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .EditAny-Options a button:hover {
+    background-color: #388e3c;
+  }
+  
+  

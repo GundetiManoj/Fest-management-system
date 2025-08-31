@@ -1,0 +1,49 @@
+.Events {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .Events h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .Event-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .Event-card h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .Event-card h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #666;
+  }
+  
+  .Event-card p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .Event-card button {
+    padding: 10px 20px;
+    background-color: #66bb6a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .Event-card button:hover {
+    background-color: #388e3c;
+  }
+  

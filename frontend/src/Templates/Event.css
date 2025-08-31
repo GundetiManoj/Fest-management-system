@@ -1,0 +1,81 @@
+.Event {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Event h1 {
+    color: #388e3c;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 2.5rem;
+  }
+  
+  .Event h3 {
+    color: #333;
+    font-size: 1.3rem;
+  }
+  
+  
+  .Event p {
+    color: #555; 
+    font-size: 1.1rem; 
+  }
+  
+  
+  .Event button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 1.1rem;
+  }
+  .Event button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .Event button:hover {
+    background-color: #388e3c;
+  }
+  
+  .Event a {
+    text-decoration: none;
+  }
+  
+  .Event .registration-closed {
+    color: #f44336;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .Event .leaderboard-message {
+    color: #555;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .Event .link {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .Event .link a {
+    color: #388e3c;
+    font-weight: bold;
+    transition: color 0.3s;
+    font-size: 1.2rem;
+  }
+  
+  .Event .link a:hover {
+    color: #4caf50;
+  }
+  

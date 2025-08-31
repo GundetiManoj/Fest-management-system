@@ -1,0 +1,123 @@
+When user creates account : 
+	SELECT TYPE OF USER TO CREATE ACCOUNT:
+		Student                          (should give id when entering data into db)
+			name - (first + last)
+			username
+			password
+			emailID
+			//college
+			
+			
+		External Participant		(should give id when entering data into db)
+			name - (first + last)
+			username
+			password
+			emailID
+			college
+			//FOOD
+			//ACCOMODATION
+			
+		Organizers			(should give id, roleid when entering data into db)
+			name - (first + last)
+			username
+			password
+			emailID
+			organizertype
+			
+		Sponsors			(should give id when entering data into db)
+			username
+			password
+			emailID
+			organizationname
+		
+		Database Administrator		(should give id, roleid when entering data into db)
+			name
+			username
+			password
+			emailID
+			
+		//Volunteer
+		//Evaluators
+		//Speakers
+		
+		
+We have to make sure that usernames should be unique while logging in.
+Login should be done using username and password and account type.
+Login type should be displayed to select.
+
+CREATE EVENT TABLE;
+	EventID
+	EventType
+	EventName
+	VenueID(FK)
+	Date&Time
+	//Prize
+INSERT EVENT DATA; (DONE BY DB ADMIN)
+
+CREATE VOLUNTEER TABLE;
+	VolunteerID
+	StudentID(FK)
+	EventID(FK)
+	
+CREATE VENUE TABLE;
+	VenueID
+	VenueName
+	Capacity
+	Location
+INSERT VENUE DATA; (DONE BY DB ADMIN)
+
+/*
+
+CREATE ORGANIZERROLE TABLE;
+	RoleID
+	Description
+INSERT ORGANIZERROLE DATA; (DONE BY DB ADMIN)
+
+
+
+*/
+
+CREATE DBADMIN TABLE;  (DONE BY DB ADMIN)
+	adminID
+	roletype (ENUM)
+	name
+	username
+	password
+	emailID
+	
+	
+The different types of people's tables are created and inserted when a new account is created of that type.
+
+
+FUNCTIONAL REQUIREMENTS:   ALL OF THESE WILL BE EXECUTED AS DATABASE QUERIES AFTER CREATING TABLES AND INSERTING DATA
+
+1)
+	External partcipants should be able to browse/search the events and schedules.
+	They should also be able to register for partcular events and know about the winners
+	Accomodation and food logistics' access should be provided.
+	
+CREATE	EventParticipantTable;
+	EventID
+	ParticipantID
+	
+2)
+	Students should be able to browse/search the event schedules and register for the events.
+	They should also be able to register as volunteers.
+	
+INSERT THIS DATA INTO EventParticipantTable;
+INSERT THE REQUIRED DATA FOR VOLUNTEER REGISTRATION IN Volunteers Table;
+
+3)
+	Organizers should be able to browse the event details. 
+	They should also be able to view/search the volunteer and logistics details.
+	
+
+
+4)
+	Database administration – should be able to add/delete new users
+	 (bonus point: implement data security policy with suitable access control)
+	
+		
+		
+		
+	

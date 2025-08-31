@@ -1,0 +1,9 @@
+input:disabled {
+    background-color: #f0f0f0; 
+    color: #999; 
+    cursor: not-allowed; 
+    border: 1px solid #ccc; 
+  }
+.wrapper p{
+    color: rgb(247, 66, 66);
+}

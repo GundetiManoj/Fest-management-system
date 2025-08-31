@@ -1,0 +1,64 @@
+.Events {
+    margin: 0 auto;
+  }
+  
+  .Events h1 {
+    color: #388e3c;
+    text-align: center;
+  }
+  
+  .Event-List {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 30px;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  
+  
+  .Event-Card {
+    background-color: #fff; 
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .Event-Card h2 {
+    color: #333; 
+    margin-bottom: 10px;
+  }
+
+  .Event-Card h3 {
+    color: #454444; 
+    margin-bottom: 10px;
+  }
+  
+  .Event-Card p {
+    color: #666; 
+  }
+  
+  .Event-Card button {
+    background-color: #66bb6a; 
+    color: #fff; 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .Event-Card button:hover {
+    background-color: #388e3c; 
+  }
+
+  .Event-Card:hover {
+    transform: translateY(-4px); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); 
+  }
+
+  .Event-Card {
+    text-decoration: none;
+  }
+  
+  
+  

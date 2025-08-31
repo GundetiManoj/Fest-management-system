@@ -1,0 +1,36 @@
+.EditDb {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .EditDb h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .EditDb-Options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .EditDb-Options a {
+    text-decoration: none;
+  }
+  
+  .EditDb-Options button {
+    padding: 10px 20px;
+    background-color: #66bb6a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .EditDb-Options button:hover {
+    background-color: #388e3c;
+  }
+  

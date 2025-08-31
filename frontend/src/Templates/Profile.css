@@ -1,0 +1,73 @@
+.Profile {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Profile h1 {
+    color: #388e3c;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .Profile h2,
+  .Profile h3 {
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .Profile ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .Profile ul li {
+    margin-bottom: 5px;
+  }
+  
+  .Profile ul li a {
+    color: #0277bd;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .Profile ul li a:hover {
+    color: #01579b;
+  }
+  
+  .Profile .buttons {
+    margin-top: 20px;
+  }
+  
+  .Profile button {
+    background-color: #66bb6a;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 10px;
+  }
+  
+  .Profile button:hover {
+    background-color: #388e3c;
+  }
+  
+  .Profile button.register-button {
+    background-color: #ffa000;
+  }
+  
+  .Profile button.delete-button {
+    background-color: #d32f2f;
+  }
+  
+  .Profile button.logout {
+    background-color: #0288d1;
+  }
+  
